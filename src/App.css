@@ -1,0 +1,91 @@
+
+body{
+background-color: rgb(171, 171, 171);
+font-family: 'Arial', sans-serif;
+}
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  top: 10rem;
+  margin: 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:10px 10px 5px lightblue;
+ }
+ 
+ .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+ }
+ .logo h1{
+  font-size: 30px ;
+  color: yellowgreen;
+ }
+ 
+ .search-box {
+  
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-direction: column;
+ }
+ 
+ .search-box input {
+  margin-right: 10px;
+
+ }
+ .search-box select{
+  margin-right: 10px;
+ }
+ 
+ .search-box button {
+  margin-right: 10px;
+ }
+ 
+ .result {
+  width: 100%;
+  margin-bottom: 20px;
+ }
+ 
+ .result pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  white-space: pre-wrap;
+ }
+ .footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+}
+.face-container {
+  margin-bottom: 20px;
+}
+
+.face-table {
+  width: 100%; /* Set table width to 100% */
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.face-table th,
+.face-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.face-table th {
+  background-color: #f2f2f2;
+}
